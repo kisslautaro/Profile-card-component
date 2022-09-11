@@ -1,0 +1,58 @@
+:root{
+
+    /* Colors */
+    --primaryDarkCyan:hsl(185, 75%, 39%);
+    --primaryVeryDarkBlue:hsl(229, 23%, 23%);
+    --primaryGrayishBlue:hsl(227, 10%, 46%);
+
+    /* Neutral */
+
+    --neutralDarkGray:hsl(0, 0%, 59%);
+    /* Font */
+    --font:'Kumbh Sans', sans-serif;
+}
+
+/* Global */
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+.container{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 50rem;
+    height: 50rem;
+    background-color: azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
